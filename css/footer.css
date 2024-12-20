@@ -1,0 +1,101 @@
+.container__bgc{
+    background-color: #343434;
+    padding: 64px 136px 87px 136px ; 
+}
+
+
+.footer__wrapper{
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 76px ;
+    margin-top: 67px;
+    margin-bottom: 87px; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 90px;
+}
+
+.about-company{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    ;
+}
+
+
+.about-company__text p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #BCBBBB;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.info__text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info__text p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #BCBBBB;
+    
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.contacts__text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contacts__text p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #BCBBBB;
+}
+
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.social-media__text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-media__text p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #BCBBBB;
+}

@@ -1,0 +1,18 @@
+.location-info__wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.location-info__icons{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+
+
+
+
+
+
