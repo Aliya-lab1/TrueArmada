@@ -1,0 +1,63 @@
+.production__title {
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+.production__title h1 {
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 8px;
+    background-color: white;
+    
+}
+
+.production__wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap:32px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.equipment__title {
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+.equipment__title h1 {
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 8px;
+    background-color: white;
+    
+}
+
+.equipment__text{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.equipment__content{
+    background-image: url(../images/history-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 384px;
+    margin-bottom: 60px;
+}
+
+.equipment__content-text{
+
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
